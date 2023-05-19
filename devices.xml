@@ -1,0 +1,18 @@
+﻿<Devices>
+  <Device>
+    <Type>SerialPort</Type>
+    <IsRegistered>true</IsRegistered>
+    <Settings>
+      <PortName>COM1</PortName>
+      <BaudRate>9600</BaudRate>
+    </Settings>
+  </Device>
+  <Device>
+    <Type>TcpListener</Type>
+    <IsRegistered>false</IsRegistered>
+    <Settings>
+      <TcpAddress>127.0.0.1</TcpAddress>
+      <TcpPort>9000</TcpPort>
+    </Settings>
+  </Device>
+</Devices>
